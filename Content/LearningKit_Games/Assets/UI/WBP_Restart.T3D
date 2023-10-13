@@ -1,0 +1,234 @@
+Begin Object Class=/Script/UMGEditor.WidgetBlueprint Name="WBP_Restart" ExportPath=/Script/UMGEditor.WidgetBlueprint'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart"'
+   Begin Object Class=/Script/UMG.WidgetTree Name="WidgetTree" Archetype=/Script/UMG.WidgetTree'/Script/UMGEditor.Default__WidgetBlueprint:WidgetTree' ExportPath=/Script/UMG.WidgetTree'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:WidgetTree"'
+      Begin Object Class=/Script/UMG.Button Name="RestartButton" ExportPath=/Script/UMG.Button'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:WidgetTree.RestartButton"'
+         Begin Object Class=/Script/UMG.ButtonSlot Name="ButtonSlot_0" ExportPath=/Script/UMG.ButtonSlot'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:WidgetTree.RestartButton.ButtonSlot_0"'
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.CanvasPanel Name="CanvasPanel_0" ExportPath=/Script/UMG.CanvasPanel'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:WidgetTree.CanvasPanel_0"'
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_0" ExportPath=/Script/UMG.CanvasPanelSlot'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0"'
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Image Name="RestartImage" ExportPath=/Script/UMG.Image'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:WidgetTree.RestartImage"'
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph" ExportPath=/Script/Engine.EdGraph'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph"'
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_1" ExportPath=/Script/BlueprintGraph.K2Node_CallFunction'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph.K2Node_CallFunction_1"'
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_4" ExportPath=/Script/BlueprintGraph.K2Node_CallFunction'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph.K2Node_CallFunction_4"'
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_5" ExportPath=/Script/BlueprintGraph.K2Node_CallFunction'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph.K2Node_CallFunction_5"'
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_8" ExportPath=/Script/BlueprintGraph.K2Node_CallFunction'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph.K2Node_CallFunction_8"'
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_0" ExportPath=/Script/BlueprintGraph.K2Node_ComponentBoundEvent'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph.K2Node_ComponentBoundEvent_0"'
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_DynamicCast Name="K2Node_DynamicCast_0" ExportPath=/Script/BlueprintGraph.K2Node_DynamicCast'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph.K2Node_DynamicCast_0"'
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_0" ExportPath=/Script/BlueprintGraph.K2Node_Event'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph.K2Node_Event_0"'
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_1" ExportPath=/Script/BlueprintGraph.K2Node_Event'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph.K2Node_Event_1"'
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_2" ExportPath=/Script/BlueprintGraph.K2Node_Event'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph.K2Node_Event_2"'
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_GetArrayItem Name="K2Node_GetArrayItem_4" ExportPath=/Script/BlueprintGraph.K2Node_GetArrayItem'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph.K2Node_GetArrayItem_4"'
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="BndEvt__WBP_Restart_RestartButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature" ExportPath=/Script/Engine.EdGraph'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:BndEvt__WBP_Restart_RestartButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"'
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath=/Script/BlueprintGraph.K2Node_FunctionEntry'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:BndEvt__WBP_Restart_RestartButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature.K2Node_FunctionEntry_0"'
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0" ExportPath=/Script/BlueprintGraph.K2Node_CallFunction'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:BndEvt__WBP_Restart_RestartButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature.K2Node_CallFunction_0"'
+      End Object
+   End Object
+   Begin Object Name="WidgetTree" ExportPath=/Script/UMG.WidgetTree'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:WidgetTree"'
+      Begin Object Name="RestartButton" ExportPath=/Script/UMG.Button'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:WidgetTree.RestartButton"'
+         Begin Object Name="ButtonSlot_0" ExportPath=/Script/UMG.ButtonSlot'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:WidgetTree.RestartButton.ButtonSlot_0"'
+            Parent=/Script/UMG.Button'"WBP_Restart:WidgetTree.RestartButton"'
+            Content=/Script/UMG.Image'"WBP_Restart:WidgetTree.RestartImage"'
+         End Object
+         BackgroundColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+         Slots(0)=/Script/UMG.ButtonSlot'"ButtonSlot_0"'
+         Slot=/Script/UMG.CanvasPanelSlot'"WBP_Restart:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0"'
+         bExpandedInDesigner=True
+         DisplayLabel="RestartButton"
+      End Object
+      Begin Object Name="CanvasPanel_0" ExportPath=/Script/UMG.CanvasPanel'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:WidgetTree.CanvasPanel_0"'
+         Begin Object Name="CanvasPanelSlot_0" ExportPath=/Script/UMG.CanvasPanelSlot'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0"'
+            LayoutData=(Offsets=(Bottom=40.000000),Anchors=(Minimum=(X=0.500000,Y=0.500000),Maximum=(X=0.500000,Y=0.500000)),Alignment=(X=0.500000,Y=0.500000))
+            bAutoSize=True
+            Parent=/Script/UMG.CanvasPanel'"WBP_Restart:WidgetTree.CanvasPanel_0"'
+            Content=/Script/UMG.Button'"WBP_Restart:WidgetTree.RestartButton"'
+         End Object
+         Slots(0)=/Script/UMG.CanvasPanelSlot'"CanvasPanelSlot_0"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="RestartImage" ExportPath=/Script/UMG.Image'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:WidgetTree.RestartImage"'
+         Brush=(ImageSize=(X=512.000000,Y=512.000000),ResourceObject=/Script/Engine.Texture2D'"/Game/InfiniteMatrix/UI/T_Restart.T_Restart"')
+         Slot=/Script/UMG.ButtonSlot'"WBP_Restart:WidgetTree.RestartButton.ButtonSlot_0"'
+         bExpandedInDesigner=True
+         DisplayLabel="RestartImage"
+      End Object
+      RootWidget=/Script/UMG.CanvasPanel'"CanvasPanel_0"'
+   End Object
+   Begin Object Name="EventGraph" ExportPath=/Script/Engine.EdGraph'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph"'
+      Begin Object Name="K2Node_CallFunction_1" ExportPath=/Script/BlueprintGraph.K2Node_CallFunction'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph.K2Node_CallFunction_1"'
+         bIsPureFunc=True
+         bIsConstFunc=True
+         FunctionReference=(MemberName="GetOwningPlayerPawn",bSelfContext=True)
+         NodePosY=800
+         NodeGuid=B520DFAD473679D468B7EBB236E278E9
+         CustomProperties Pin (PinId=5886BEF0417B393A81355A9D67683A46,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/CoreUObject.Class'"/Script/UMG.UserWidget"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=7E73F6E24255360383BA2983DAA023B4,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/CoreUObject.Class'"/Script/Engine.Pawn"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_DynamicCast_0 CECEA196473A27582455A28AE6D51976,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_4" ExportPath=/Script/BlueprintGraph.K2Node_CallFunction'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph.K2Node_CallFunction_4"'
+         FunctionReference=(MemberParent=/Script/CoreUObject.Class'"/Script/Engine.GameplayStatics"',MemberName="GetAllActorsOfClass")
+         NodePosX=880
+         NodePosY=640
+         NodeGuid=59D957CB4837F2D87C9DA4B8E2F474C9
+         CustomProperties Pin (PinId=2FEE71C443D25D4066402AB19A187AF3,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_8 3D6F57F04CA0D6B6476843AE897F7765,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=5A5A86DC4E4BBAD30FB96ABC84C3DA90,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_5 27CD97CA43A7CD342790438FC33090D6,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=DA5D9A874C848BC3075FE3828BC10B77,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/CoreUObject.Class'"/Script/Engine.GameplayStatics"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultObject="/Script/Engine.Default__GameplayStatics",PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=40FF1C2E45766DA5F70E0EAD3C82833A,PinName="WorldContextObject",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/CoreUObject.Class'"/Script/CoreUObject.Object"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=True,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=0871E9DC427DB9D74E9B2E9CD94460EF,PinName="ActorClass",PinType.PinCategory="class",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/CoreUObject.Class'"/Script/Engine.Actor"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=True,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultObject="/Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner.BP_TunnelSpawner_C",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=3D208CD148E4E1D4A8255D89DC63E9AC,PinName="OutActors",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/Engine.BlueprintGeneratedClass'"/Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner.BP_TunnelSpawner_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=Array,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_GetArrayItem_4 3F554C7E41B45497BBFCDA8521CEC0D5,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_5" ExportPath=/Script/BlueprintGraph.K2Node_CallFunction'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph.K2Node_CallFunction_5"'
+         FunctionReference=(MemberParent=/Script/Engine.BlueprintGeneratedClass'"/Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner.BP_TunnelSpawner_C"',MemberName="SpawnInitialTunnels",MemberGuid=A9A520AE4C19E36C509480A0A71001D6)
+         NodePosX=1488
+         NodePosY=656
+         ErrorType=1
+         NodeGuid=2B33C006464399F16E3BD9AA4303AC30
+         CustomProperties Pin (PinId=27CD97CA43A7CD342790438FC33090D6,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_4 5A5A86DC4E4BBAD30FB96ABC84C3DA90,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=E786FC264C109940CCE0D2B336CE6A08,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=CC8EBAB24FC3B716C1A836B1BB40087C,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/Engine.BlueprintGeneratedClass'"/Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner.BP_TunnelSpawner_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_GetArrayItem_4 430C896448A487F0DBE5269638177C42,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_8" ExportPath=/Script/BlueprintGraph.K2Node_CallFunction'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph.K2Node_CallFunction_8"'
+         FunctionReference=(MemberParent=/Script/Engine.BlueprintGeneratedClass'"/Game/InfiniteMatrix/Blueprints/BP_Player.BP_Player_C"',MemberName="RestartGame",MemberGuid=93BB64EE42F48996D61E339605E8AD2E)
+         NodePosX=656
+         NodePosY=640
+         NodeGuid=6C36B98D47DAD3001E17BD81714F21BD
+         CustomProperties Pin (PinId=E41683A840BEC01FB33C9DAFE57352EE,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_DynamicCast_0 C13298034A30D3704BD5EE94B81ED517,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=3D6F57F04CA0D6B6476843AE897F7765,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_4 2FEE71C443D25D4066402AB19A187AF3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=4B589B224A7FE16118B089A658DD661B,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/Engine.BlueprintGeneratedClass'"/Game/InfiniteMatrix/Blueprints/BP_Player.BP_Player_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_DynamicCast_0 3D856EBD4F27CF57C9B310B009839839,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_0" ExportPath=/Script/BlueprintGraph.K2Node_ComponentBoundEvent'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph.K2Node_ComponentBoundEvent_0"'
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=/Script/CoreUObject.Class'"/Script/UMG.Button"'
+         ComponentPropertyName="RestartButton"
+         EventReference=(MemberParent=/Script/CoreUObject.Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__WBP_Restart_RestartButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"
+         NodePosY=656
+         NodeGuid=B1A3C5ED4E641DAFC1400AA746870F1B
+         CustomProperties Pin (PinId=5F108A4C4AADEBC9B18323B5D191BCC4,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=/Script/UMG.WidgetBlueprintGeneratedClass'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart_C"',MemberName="BndEvt__WBP_Restart_RestartButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=936069594EBB8CCFCEDAB198D1F240FD,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_DynamicCast_0 D999685E423CED193D54D89612AF9A5D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_DynamicCast_0" ExportPath=/Script/BlueprintGraph.K2Node_DynamicCast'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph.K2Node_DynamicCast_0"'
+         TargetType=/Script/Engine.BlueprintGeneratedClass'"/Game/InfiniteMatrix/Blueprints/BP_Player.BP_Player_C"'
+         NodePosX=368
+         NodePosY=640
+         NodeGuid=043CC57D4A61F25A363A4C8B5D8E8000
+         CustomProperties Pin (PinId=D999685E423CED193D54D89612AF9A5D,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_ComponentBoundEvent_0 936069594EBB8CCFCEDAB198D1F240FD,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=C13298034A30D3704BD5EE94B81ED517,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_8 E41683A840BEC01FB33C9DAFE57352EE,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=35E8E32F438FE6E7210C1C972E0B8F1E,PinName="CastFailed",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=CECEA196473A27582455A28AE6D51976,PinName="Object",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/CoreUObject.Class'"/Script/CoreUObject.Object"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_1 7E73F6E24255360383BA2983DAA023B4,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=3D856EBD4F27CF57C9B310B009839839,PinName="AsBP Player",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/Engine.BlueprintGeneratedClass'"/Game/InfiniteMatrix/Blueprints/BP_Player.BP_Player_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_8 4B589B224A7FE16118B089A658DD661B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=718F1B6F4554BDC89651F98C3E41988B,PinName="bSuccess",Direction="EGPD_Output",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_0" ExportPath=/Script/BlueprintGraph.K2Node_Event'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph.K2Node_Event_0"'
+         EventReference=(MemberParent=/Script/CoreUObject.Class'"/Script/UMG.UserWidget"',MemberName="PreConstruct")
+         bOverrideFunction=True
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=77F311D245563FA50EF3A0B7896FDD37
+         CustomProperties Pin (PinId=503E4C854F9EA43C545C59BA2D284DBD,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=/Script/CoreUObject.Class'"/Script/UMG.UserWidget"',MemberName="PreConstruct"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=6919739A46D5A1F7B984579E66207D8C,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=451D752F4EDE183A82A9F3AF5D7E9A86,PinName="IsDesignTime",PinToolTip="Is Design Time\nBoolean",Direction="EGPD_Output",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="false",AutogeneratedDefaultValue="false",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_1" ExportPath=/Script/BlueprintGraph.K2Node_Event'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph.K2Node_Event_1"'
+         EventReference=(MemberParent=/Script/CoreUObject.Class'"/Script/UMG.UserWidget"',MemberName="Construct")
+         bOverrideFunction=True
+         NodePosY=200
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=039E41AF47A1DE14E70867A1FFBD7C31
+         CustomProperties Pin (PinId=2D0A347440634AB2140EA9A0EEB177DA,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=/Script/CoreUObject.Class'"/Script/UMG.UserWidget"',MemberName="Construct"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=CA50F9A84641D661FB0FC4BCE201B425,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_2" ExportPath=/Script/BlueprintGraph.K2Node_Event'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph.K2Node_Event_2"'
+         EventReference=(MemberParent=/Script/CoreUObject.Class'"/Script/UMG.UserWidget"',MemberName="Tick")
+         bOverrideFunction=True
+         NodePosY=400
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=B3EA67FF4950E79875629F943AF7637F
+         CustomProperties Pin (PinId=77AF2E914C591A0D640B37B41E818FB0,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=/Script/CoreUObject.Class'"/Script/UMG.UserWidget"',MemberName="Tick"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=7DA5ABCD41C128A0098A97AEBDE64B77,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=3948FA5548CD5C09FBA2F59F542153D1,PinName="MyGeometry",PinToolTip="My Geometry\nGeometry Structure\n\nThe space allotted for this widget",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/CoreUObject.ScriptStruct'"/Script/SlateCore.Geometry"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=211E9A8A45688EF967F6AC9E00CFB822,PinName="InDeltaTime",PinToolTip="In Delta Time\nFloat (single-precision)\n\nReal time passed since last tick",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="float",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_GetArrayItem_4" ExportPath=/Script/BlueprintGraph.K2Node_GetArrayItem'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph.K2Node_GetArrayItem_4"'
+         bReturnByRefDesired=False
+         NodePosX=1248
+         NodePosY=800
+         NodeGuid=7EEDFBC348CF21E3C33F3A978806752C
+         CustomProperties Pin (PinId=3F554C7E41B45497BBFCDA8521CEC0D5,PinName="Array",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/Engine.BlueprintGeneratedClass'"/Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner.BP_TunnelSpawner_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=Array,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_4 3D208CD148E4E1D4A8255D89DC63E9AC,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=2809A09F45FF27A3CEDD5D9619EF16F7,PinName="Dimension 1",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0",AutogeneratedDefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=430C896448A487F0DBE5269638177C42,PinName="Output",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/Engine.BlueprintGeneratedClass'"/Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner.BP_TunnelSpawner_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_5 CC8EBAB24FC3B716C1A836B1BB40087C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=/Script/CoreUObject.Class'"/Script/UMGEditor.WidgetGraphSchema"'
+      Nodes(0)=/Script/BlueprintGraph.K2Node_Event'"K2Node_Event_0"'
+      Nodes(1)=/Script/BlueprintGraph.K2Node_Event'"K2Node_Event_1"'
+      Nodes(2)=/Script/BlueprintGraph.K2Node_Event'"K2Node_Event_2"'
+      Nodes(3)=/Script/BlueprintGraph.K2Node_ComponentBoundEvent'"K2Node_ComponentBoundEvent_0"'
+      Nodes(4)=/Script/BlueprintGraph.K2Node_DynamicCast'"K2Node_DynamicCast_0"'
+      Nodes(5)=/Script/BlueprintGraph.K2Node_CallFunction'"K2Node_CallFunction_1"'
+      Nodes(6)=/Script/BlueprintGraph.K2Node_CallFunction'"K2Node_CallFunction_4"'
+      Nodes(7)=/Script/BlueprintGraph.K2Node_CallFunction'"K2Node_CallFunction_5"'
+      Nodes(8)=/Script/BlueprintGraph.K2Node_CallFunction'"K2Node_CallFunction_8"'
+      Nodes(9)=/Script/BlueprintGraph.K2Node_GetArrayItem'"K2Node_GetArrayItem_4"'
+      bAllowDeletion=False
+      GraphGuid=0E6403DC44C6DE82168D63B905ACEB81
+   End Object
+   Begin Object Name="BndEvt__WBP_Restart_RestartButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature" ExportPath=/Script/Engine.EdGraph'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:BndEvt__WBP_Restart_RestartButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"'
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath=/Script/BlueprintGraph.K2Node_FunctionEntry'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:BndEvt__WBP_Restart_RestartButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature.K2Node_FunctionEntry_0"'
+         CustomGeneratedFunctionName="BndEvt__WBP_Restart_RestartButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"
+         FunctionReference=(MemberParent=/Script/CoreUObject.Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         NodePosX=-200
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=CBDB89E2469866852882A0AE4263740D
+         CustomProperties Pin (PinId=0C6339DA4A9DE2A4185E918BD0267646,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_0 DD34E35546E3F29654D7EB8CE27D792C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_0" ExportPath=/Script/BlueprintGraph.K2Node_CallFunction'"/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:BndEvt__WBP_Restart_RestartButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature.K2Node_CallFunction_0"'
+         FunctionReference=(MemberName="ExecuteUbergraph_WBP_Restart",bSelfContext=True)
+         NodePosX=300
+         NodePosY=-2000
+         bIsIntermediateNode=True
+         NodeGuid=D3259C6F4464A3906EE011A6EDF649C2
+         CustomProperties Pin (PinId=DD34E35546E3F29654D7EB8CE27D792C,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionEntry_0 0C6339DA4A9DE2A4185E918BD0267646,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=4D5261AA4E08973BA63FC79080223823,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=13A59B1D4230C7A9CE2811B8170FC61A,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="self",PinType.PinSubCategoryObject=/Script/UMG.WidgetBlueprintGeneratedClass'"/Game/InfiniteMatrix/UI/WBP_Restart.SKEL_WBP_Restart_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=57D796BA4067E4794CB353A004B69384,PinName="EntryPoint",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0",AutogeneratedDefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=/Script/CoreUObject.Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=/Script/BlueprintGraph.K2Node_FunctionEntry'"K2Node_FunctionEntry_0"'
+      Nodes(1)=/Script/BlueprintGraph.K2Node_CallFunction'"K2Node_CallFunction_0"'
+      GraphGuid=061F332E41D47C032F3C4FAC4E18F3DE
+   End Object
+   WidgetTree="WidgetTree"
+   ParentClass=/Script/CoreUObject.Class'"/Script/UMG.UserWidget"'
+   BlueprintSystemVersion=2
+   UbergraphPages(0)=/Script/Engine.EdGraph'"EventGraph"'
+   CategorySorting(0)="WBP Restart"
+   CategorySorting(1)="Event Graph"
+   LastEditedDocuments(0)=(EditedObjectPath="/Game/InfiniteMatrix/UI/WBP_Restart.WBP_Restart:EventGraph",SavedViewOffset=(X=805.896808,Y=490.508273),SavedZoomAmount=1.000000)
+   GeneratedClass=/Script/UMG.WidgetBlueprintGeneratedClass'"WBP_Restart_C"'
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=F36C49934515392FEB7584B7D3864615
+End Object
